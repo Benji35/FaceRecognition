@@ -11,7 +11,7 @@ int main(int argc, char* argv[]) {
 		}
 
 		// Display the image.
-		cvNamedWindow("Image:", CV_WINDOW_FULLSCREEN);
+		cvNamedWindow("Image:", CV_WINDOW_AUTOSIZE);
 		cvShowImage("Image:", img);
 
 		// Wait for the user to press a key in the GUI window.
